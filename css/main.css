@@ -1,0 +1,237 @@
+/* DEBUG:  */
+.red{
+  background-color: red;
+  height: 50px;
+}
+
+.blue{
+  background-color: blue;
+  height: 50px;
+}
+
+.yellow{
+  background-color: yellow;
+  height: 50px;
+}
+
+
+/* GENERAL RULES */
+
+*{
+  font-family: 'Roboto';
+  color: #425479;
+}
+
+
+/* UTILITY */
+
+.relative{
+  position: relative;
+}
+
+.tr-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* UTILITY: BUTTONS */
+.btn-blue{
+  border-color: #016AFF;
+  color: #016AFF;
+  font-size: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.btn-account{
+  background-color: #569AFF;
+  color: white;
+  width: 100%;
+}
+
+.btn-google{
+  background-color: white;
+  color: #8C8C8C;
+  width: 100%;
+}
+
+/* UTILITY: MARGIN */
+.mgtop{
+  margin-top: 30px;
+}
+
+.mgtop-xl{
+  margin-top: 60px;
+}
+
+.mgtop-s{
+  margin-top: 10px;
+}
+
+.mgbot{
+  margin-bottom: 30px;
+}
+
+.mgbot-xl{
+  margin-bottom: 60px;
+}
+
+.mgbot-s{
+  margin-bottom: 10px;
+}
+
+.no-mgtop{
+  margin-top: 0;
+}
+
+.no-mgbot{
+  margin-bottom: 0;
+}
+
+/* UTILITY: PADDING */
+.padtop{
+  padding-top: 30px;
+}
+
+.padtop-xl{
+  padding-top: 60px;
+}
+
+.padtop-s{
+  padding-top: 10px;
+}
+
+.padbot{
+  padding-bottom: 30px;
+}
+
+.padbot-xl{
+  padding-bottom: 60px;
+}
+
+.padbot-s{
+  padding-bottom: 10px;
+}
+
+.no-padtop{
+  padding-top: 0;
+}
+
+.no-padbot{
+  padding-bottom: 0;
+}
+
+/* UTILITY: CONTAINERS */
+.box{
+  margin: 0 3% auto;
+}
+
+/* TYPOGRAPHY */
+h6 a{
+  color: #036BFF;
+}
+
+
+/* HEADER */
+#navbar{
+  line-height: 40px;
+  vertical-align: middle;
+}
+
+#navbar .lx-col img{
+  height: 30px;
+}
+
+#navbar .hamburger{
+  font-size: 20px;
+}
+
+#navbar ul li a{
+  color: black;
+}
+
+/* HEADER: SECTION JUMBOTRON */
+#jumbotron{
+  background-image: url('../img/bg-banner-home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+#jumbotron .lx-col .bigtext{
+  font-size: 54px;
+  color: white;
+}
+
+#jumbotron .lx-col .medtext{
+  font-size: 32px;
+  color: white;
+}
+
+#jumbotron .lx-col p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #9FB9FF;
+}
+
+#jumbotron .rx-col{
+  background-color: white;
+  color: black;
+}
+
+#jumbotron .icon-google{
+  position: absolute;
+  height: 20px;
+  left: 2%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* MAIN */
+
+/* MAIN: SECTION INNOVATIVE */
+
+#innovative{
+  background-color: #F4F5F9;
+}
+
+#innovative .logo{
+  height: 60px;
+}
+
+#innovative img{
+  width: 100%;
+  padding: 10px;
+}
+
+/* MAIN: SECTION DEPLOY */
+#deploy h4{
+  font-weight: 400;
+  color: #74809A;
+}
+
+#deploy .lx-col li{
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+#deploy .rx-col img{
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
