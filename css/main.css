@@ -156,8 +156,7 @@ h6 a{
 #jumbotron{
   background-image: url('../img/bg-banner-home.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: 100% 100%;
   color: white;
 }
 
@@ -223,14 +222,40 @@ h6 a{
   height: 30px;
 }
 
+#deploy .cell{
+  height: 180px
+}
 
+/* MAIN: SECTION DESIGNED */
+#designed{
+  background-color: #F4F5F9;
+}
 
+#designed h4{
+  font-weight: 400;
+  color: #74809A;
+}
 
+#designed .dashboard{
+  height: 350px;
+}
 
+#designed .full{
+  height: 100%;
+}
 
+#designed .dashboard .dash-logo{
+  height: 100%;
+  background-image: url('../img/create-droplet.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 
-
-
+#designed .list-inline>li {
+  font-size: 15px;
+  padding: 0 1px;
+}
 
 
 
