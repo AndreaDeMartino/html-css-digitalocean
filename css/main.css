@@ -36,16 +36,9 @@
   transform: translate(-50%, -50%);
 }
 
-.white{
-  color: white;
-}
-
-.grey{
-  color: #9FB9FF;
-}
-
-.azure{
-  color: #019BC7
+.vanilla-list{
+  list-style: none;
+  padding: 0;
 }
 
 /* UTILITY: BUTTONS */
@@ -143,6 +136,22 @@
 /* TYPOGRAPHY */
 h6 a{
   color: #036BFF;
+}
+
+.white{
+  color: white;
+}
+
+.grey{
+  color: #9FB9FF;
+}
+
+.greydark{
+  color: #637190
+}
+
+.azure{
+  color: #019BC7
 }
 
 
@@ -277,10 +286,6 @@ h6 a{
   background: linear-gradient(180deg, rgba(21,92,241,1) 0%, rgba(2,30,135,1) 83%);
 }
 
-#service ul{
-  list-style: none;
-}
-
 #service ul li{
   border-bottom: 1px solid white;
   padding: 0 10px;
@@ -324,10 +329,15 @@ h6 a{
   font-size: 16px;
 }
 
-
-
-
-
-
-
 /* FOOTER */
+#main-footer{
+  background-color: #031C4E;
+}
+
+#main-footer img{
+  height: 50px;
+}
+
+#main-footer .social{
+  font-size: 18px;
+}
