@@ -1,25 +1,7 @@
-/* DEBUG:  */
-.red{
-  background-color: red;
-  height: 50px;
-}
-
-.blue{
-  background-color: blue;
-  height: 50px;
-}
-
-.yellow{
-  background-color: yellow;
-  height: 50px;
-}
-
-
 /* GENERAL RULES */
 
 *{
   font-family: 'Roboto';
-  color: #425479;
 }
 
 
@@ -134,26 +116,35 @@
 }
 
 /* TYPOGRAPHY */
-h6 a{
-  color: #036BFF;
-}
-
 .white{
   color: white;
 }
 
-.grey{
-  color: #9FB9FF;
+.black-light{
+  color:black;
+  font-weight: 400;
+}
+
+.greylight{
+  color: #74809A;
+  font-weight: 400;
 }
 
 .greydark{
-  color: #637190
+  color: #637190;
 }
 
 .azure{
-  color: #019BC7
+  color: #24b8e5;
 }
 
+.azure-light{
+  color: #91B0FF;
+}
+
+.blue-light{
+  color: #2f6cf9;
+}
 
 /* HEADER */
 #navbar{
@@ -194,7 +185,6 @@ h6 a{
 #jumbotron .lx-col p{
   font-size: 18px;
   font-weight: 400;
-  color: #9FB9FF;
 }
 
 #jumbotron .rx-col{
@@ -228,11 +218,6 @@ h6 a{
 }
 
 /* MAIN: SECTION DEPLOY */
-#deploy h4{
-  font-weight: 400;
-  color: #74809A;
-}
-
 #deploy .lx-col li{
   border-top: 0;
   border-right: 0;
@@ -250,11 +235,6 @@ h6 a{
 /* MAIN: SECTION DESIGNED */
 #designed{
   background-color: #F4F5F9;
-}
-
-#designed h4{
-  font-weight: 400;
-  color: #74809A;
 }
 
 #designed .dashboard{
