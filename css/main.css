@@ -250,12 +250,9 @@
   height: 350px;
 }
 
-#designed .dashboard .dash-logo{
+#designed img{
   height: 100%;
-  background-image: url('../img/create-droplet.jpg');
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  width: 100%;
 }
 
 #designed .list-inline>li {
@@ -393,8 +390,11 @@
 
 }
 
-/* Small Device Shark */
+/* Fix Dashboard and Shark for Small Device */
 @media all and (max-width: 991px){
+#designed .dashboard{
+  height: 200px;
+}
 
 #shark .box-text {
   left: 100px;
