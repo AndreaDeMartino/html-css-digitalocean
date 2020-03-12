@@ -23,6 +23,14 @@
   padding: 0;
 }
 
+.bigicon{
+  font-size: 30px;
+}
+
+.full{
+  height: 100%;
+}
+
 /* UTILITY: BUTTONS */
 .btn-blue{
   border-color: #016AFF;
@@ -168,7 +176,8 @@
 #jumbotron{
   background-image: url('../img/bg-banner-home.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: bottom;
   color: white;
 }
 
@@ -239,10 +248,6 @@
 
 #designed .dashboard{
   height: 350px;
-}
-
-#designed .full{
-  height: 100%;
 }
 
 #designed .dashboard .dash-logo{
