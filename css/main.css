@@ -290,9 +290,39 @@ h6 a{
   border-bottom: 0;
 }
 
+/* MAIN: SECTION DEVELOPMENT */
+#development{
+  background-color: #F4F5F9;
+}
 
+#development .dashboard{
+  height: 350px;
+}
 
+#development .dashboard .dash{
+  height: 100%;
+  background-color: white;
+}
 
+#development .dashboard img{
+  height: 100px;
+}
+
+#development .list-inline>li {
+  font-size: 15px;
+  padding: 0 1px;
+}
+
+/* MAIN: SECTION GET STARTED */
+#getstarted{
+  height: 200px;
+  background: rgb(21,92,241);
+  background: linear-gradient(180deg, rgba(21,92,241,1) 0%, rgba(2,30,135,1) 83%);
+}
+
+#getstarted button{
+  font-size: 16px;
+}
 
 
 
