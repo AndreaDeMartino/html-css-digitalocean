@@ -159,6 +159,11 @@
 
 /* HEADER */
 #navbar{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 100px;
+  z-index: 1;
   line-height: 40px;
   vertical-align: middle;
 }
@@ -173,6 +178,14 @@
 
 #navbar ul li a{
   color: black;
+}
+
+#navbar .form-control,
+#navbar .form-control select{
+  border: 0;
+  -webkit-box-shadow: none;
+  color: black;
+  font-family: 'Roboto';
 }
 
 /* HEADER: SECTION JUMBOTRON */
