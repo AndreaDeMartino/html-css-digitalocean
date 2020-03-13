@@ -407,6 +407,10 @@
   padding: 8px;
 }
 
+#shark .logo-shark img:hover{
+  content: url('../img/chat-img2.png');
+}
+
 #shark .logo-shark h5{
   position: absolute;
   bottom: 52%;
