@@ -331,6 +331,26 @@
   font-size: 18px;
 }
 
+#main-footer .social a:hover .twitter{
+  color: #00A9E8;
+}
+
+#main-footer .social a:hover .facebook{
+  color: #3C548F;
+}
+
+#main-footer .social a:hover .instagram{
+  color: #CC2C8D;
+}
+
+#main-footer .social a:hover .youtube{
+  color: #F60000;
+}
+
+#main-footer .social a:hover .linkedin{
+  color: #0670AE;
+}
+
 /* SHARK */
 #shark .box-text {
   position: fixed;
