@@ -6,7 +6,6 @@
 
 
 /* UTILITY */
-
 .relative{
   position: relative;
 }
@@ -29,6 +28,10 @@
 
 .full{
   height: 100%;
+}
+
+.circle:hover .check:before{
+  content: "\f057";
 }
 
 /* UTILITY: BUTTONS */
@@ -318,6 +321,10 @@
 
 #main-footer img{
   height: 50px;
+}
+
+#main-footer ul li a{
+  color: #74809A;
 }
 
 #main-footer .social{
